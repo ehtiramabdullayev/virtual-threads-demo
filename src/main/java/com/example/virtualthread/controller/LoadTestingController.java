@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class LoadTestingController {
     private static final Logger LOG = LoggerFactory.getLogger(LoadTestingController.class);
 
-
     @GetMapping
     public void doSomething() throws InterruptedException {
         LOG.info("hey, I'm doing something");

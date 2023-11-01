@@ -11,4 +11,5 @@ public class ThreadController {
     @GetMapping("/name")
     public String getThreadName() {
         return Thread.currentThread().toString();
-    }}
+    }
+}
